@@ -10,6 +10,7 @@
     <modules>
         <module>_0001-two-sum</module>
         <module>leet-code-utils</module>
+        <module>_0002-add-two-numbers</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -54,6 +55,11 @@
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-engine</artifactId>
+                <version>${version.junit}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-params</artifactId>
                 <version>${version.junit}</version>
             </dependency>
             <dependency>
