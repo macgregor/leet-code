@@ -2,7 +2,10 @@ package com.github.macgregor.leetcode;
 
 public abstract class Solution {
 
-    protected final Profiler profiler;
+    protected Profiler profiler;
+
+    public Solution() {
+    }
 
     public Solution(Profiler profiler) {
         this.profiler = profiler;
@@ -10,5 +13,9 @@ public abstract class Solution {
 
     public Profiler getProfiler() {
         return profiler;
+    }
+
+    public void setProfiler(Profiler profiler) {
+        this.profiler = profiler;
     }
 }
