@@ -11,6 +11,7 @@
         <module>_0001-two-sum</module>
         <module>leet-code-utils</module>
         <module>_0002-add-two-numbers</module>
+        <module>_0003-longest-substring</module>
     </modules>
     <packaging>pom</packaging>
 
